@@ -1,0 +1,84 @@
+QFrame#lowerPanel {
+    background-color: #121212;
+    border: 1px solid #3f3f3f;
+}
+
+QPushButton#settingsButton {
+    background-color: white;
+    border-radius: 5px;
+}
+
+QPushButton#reloadButton {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+QWidget#centralwidget {
+    background-color: #282828;
+    border: 1px solid #3f3f3f;
+}
+
+QPushButton#statusIcon {
+    background-color: transparent;
+    border: none;
+}
+
+QLabel#statusLabel {
+    font-size: 20px;
+}
+
+QComboBox#stateMenu {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 30px 5px 10px;
+}
+
+QComboBox#stateMenu::drop-down {
+    border: none;
+    background: transparent;
+    width: 20px;
+    margin-right: 5px;
+}
+
+QComboBox#stateMenu::down-arrow {
+    background: transparent;
+    width: 16px;
+    height: 16px;
+}
+
+QComboBox#stateMenu QAbstractItemView {
+    color: black;
+    background-color: white;
+}
+
+/* Style the scrollbar */
+QComboBox#stateMenu QAbstractItemView QScrollBar:vertical {
+    border: none;
+    background: #f0f0f0;
+    width: 10px;
+    margin: 2px 2px 2px 2px;
+}
+
+QComboBox#stateMenu QAbstractItemView QScrollBar::handle:vertical {
+    background: black;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QComboBox#stateMenu QAbstractItemView QScrollBar::add-line:vertical,
+QComboBox#stateMenu QAbstractItemView QScrollBar::sub-line:vertical {
+    background: transparent;
+    height: 0px;
+}
+
+QComboBox#stateMenu QAbstractItemView QScrollBar::add-page:vertical,
+QComboBox#stateMenu QAbstractItemView QScrollBar::sub-page:vertical {
+    background: transparent;
+}
+
+QPushButton#mapState {
+    background-color: transparent;
+    border: none;
+}
