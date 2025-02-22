@@ -1,5 +1,5 @@
 if [ ! -f Makefile ]; then
-    cmake --build build
+    cmake build .
 fi
 
 make
