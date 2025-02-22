@@ -1,5 +1,5 @@
 if [ ! -f Makefile ]; then
-    cmake build .
+    cmake --build build
 fi
 
-make && ./AlertsDesktop
+make
